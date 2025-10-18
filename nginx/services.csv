@@ -1,0 +1,5 @@
+service,domain,port,target_host,optional_flag,proxy_subpath
+service1,example.com,8080,192.168.0.1,,
+service2,example.com,8081,192.168.0.1,--websockets,
+service3,example.com,8082,192.168.0.1,--websockets,home
+service4,example.net,8080,192.168.0.2,,
